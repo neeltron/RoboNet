@@ -4,12 +4,14 @@
   		die("Connection failed: " . mysqli_connect_error());
 	}
     $email = mysqli_real_escape_string($link, $_REQUEST['email']);
+	if(isset($_POST['submit'])) {
     $sql = "INSERT INTO RoboNet_newsletter (email) values ('$email');";
     if(mysqli_query($link, $sql)) {
         echo "Successfully signed up!";
     }
     else {
         echo "Error!";
+    }
     }
     
 ?>
