@@ -1,15 +1,18 @@
-<?
-    $link = mysqli_connect("localhost", "neeltron", "*******", "neeltron");
+<?php
+    $link = mysqli_connect("localhost", "neeltron", "*********", "neeltron");
+	if (!$link) {
+  		die("Connection failed: " . mysqli_connect_error());
+	}
     $email = mysqli_real_escape_string($link, $_REQUEST['email']);
-    $sql = "INSERT INTO RoboNet_newsletter values ('$email');";
+    $sql = "INSERT INTO RoboNet_newsletter (email) values ('$email');";
     if(mysqli_query($link, $sql)) {
         echo "Successfully signed up!";
     }
     else {
         echo "Error!";
     }
-    mysqli_close($link);
->
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -721,7 +724,7 @@
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <!-- <input type="email" class="form-control" name="email" id="email" required> -->
                 </div>
               </div>
               <div class="form-group">
