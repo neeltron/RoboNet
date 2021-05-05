@@ -1,3 +1,15 @@
+<?
+    $link = mysqli_connect("localhost", "neeltron", "*******", "neeltron");
+    $email = mysqli_real_escape_string($link, $_REQUEST['email']);
+    $sql = "INSERT INTO RoboNet_newsletter values ('$email');";
+    if(mysqli_query($link, $sql)) {
+        echo "Successfully signed up!";
+    }
+    else {
+        echo "Error!";
+    }
+    mysqli_close($link);
+>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -745,7 +757,7 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
+            <form action="index.php" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
