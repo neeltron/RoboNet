@@ -1,3 +1,3 @@
 # RoboNet
 
-RoboNet is an open source PHP based API that'll allow you to control your robots or NodeMCU controlled appliances remotely.
+RoboNet is an open source API (written in PHP), that'll allow you to fetch certain sensor data at a single place.
