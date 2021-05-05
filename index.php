@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect("localhost", "neeltron", "*********", "neeltron");
+    $link = mysqli_connect("localhost", "neeltron", "********", "neeltron");
 	if (!$link) {
   		die("Connection failed: " . mysqli_connect_error());
 	}
@@ -763,7 +763,7 @@
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="index.php" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" name = "submit" value="Subscribe">
             </form>
           </div>
         </div>
