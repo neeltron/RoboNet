@@ -4,4 +4,8 @@ RoboNet is an open source API (written in PHP), that'll allow you to fetch certa
 
 ## Credits
 
-Front-end theme: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+Template Name: Arsha
+Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
+
