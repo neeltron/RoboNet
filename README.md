@@ -2,6 +2,10 @@
 
 RoboNet is an open source API (written in PHP), that'll allow you to fetch certain sensor data at a single place.
 
+## Try it out
+
+RoboNet is currently under development, but you can track our current progress at: https://ratificate.us/RoboNet.
+
 ## Credits
 
 Template Name: Arsha<br>
