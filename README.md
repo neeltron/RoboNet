@@ -1,6 +1,6 @@
 # RoboNet
 
-RoboNet is an open source API (written in PHP), that'll allow you to fetch certain sensor data at a single place.
+RoboNet is an open source API (written in PHP), that'll allow you to control ESP based microcontrollers remotely and fetch certain sensor data at a single place.
 
 ## Try it out
 
