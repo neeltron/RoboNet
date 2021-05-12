@@ -1,5 +1,5 @@
 <?php
-	**creds censored**
+	check
 	if (!$link) {
   		die("Connection failed: " . mysqli_connect_error());
 	}
