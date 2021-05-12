@@ -1,5 +1,5 @@
 <?php
-	check
+	check2
 	if (!$link) {
   		die("Connection failed: " . mysqli_connect_error());
 	}
