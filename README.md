@@ -4,9 +4,12 @@ RoboNet is an open source API (written in PHP), that'll allow you to control ESP
 
 ## Project Plan
 + Get the UI ready
-+ Input node
-+ Output node
-+ Authentication Node
++ Develop the Input Node
++ Develop the Output Node
++ Develop Authentication Node
++ Develop an API Keygen System
++ Conduct an Alpha Test
++ Set up time limits and pricing
 
 ## Try it out
 
