@@ -13,6 +13,7 @@ RoboNet is an open source API (written in PHP), that'll allow you to control ESP
 + Push some example code
 + Conduct an Alpha Test
 + Set up time limits and pricing
++ bruh
 
 ## Try it out
 
